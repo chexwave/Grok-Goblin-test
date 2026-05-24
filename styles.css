@@ -1,0 +1,60 @@
+/* Goblin King Spray Paint Booth - CSS Wardrobe */
+body {
+    background-color: #1a0033; /* deep purple goblin cave */
+    color: #00ff9d; /* neon goblin green text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #00ff9d;
+    font-size: 4em;
+    text-shadow: 0 0 15px #ff00aa; /* glowing magic */
+    margin-bottom: 10px;
+}
+
+.pee-paragraph {
+    background-color: #ff0000;
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 700px;
+    border: 3px solid #00ff9d; /* neon goblin border */
+}
+
+img {
+    border-radius: 0%; /* square potion-bottle image */
+    box-shadow: 0 0 30px #00ff9d; /* neon glow */
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.piss-paragraph {
+    background-color: #ff00aa;
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 700px;
+    border: 3px solid #00ff9d; /* neon goblin border */
+}
+
+a {
+    color: #ffff00; /* bright yellow summon link */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff00aa;
+    text-decoration: underline;
+}
+
+/* REAL LAYOUT MAGIC - Flexbox for the goblin torso container */
+.main-content {
+    display: flex;
+    flex-direction: row;        /* ← this makes things go side-by-side */
+    flex-wrap: wrap;            /* gracefully stacks on mobile */
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
